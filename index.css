@@ -1,0 +1,347 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  position:fixed;
+
+  height: 100vh;
+  
+  background-color:#CE8D9B;
+  
+}
+
+.container {
+  display:flex;
+
+  height:87vh;
+
+  width:100vw;
+
+  font-family: Karla, sans-serif;
+  
+  
+  
+}
+
+
+
+.sidebar {
+
+  background-color:#bc818d;
+
+  padding: 10px; 
+  margin:5px;
+
+
+  font-size:19px;
+  font-weight:bolder;
+
+  line-height: 7;
+}
+
+a {
+  list-style:none;
+  text-decoration:none;
+  color:black; 
+}
+
+a:hover {
+  background-color:green;
+  cursor:pointer;
+
+}
+
+.body {
+ 
+ background-color:#f6c0d0;
+
+  padding:10px;
+  margin:5px;
+  
+  font-size:17px;
+  font-weight:bolder;
+  
+  width:100%;
+   
+}
+
+
+
+h1 {
+  text-align: center;
+  margin-left:170px;
+
+}
+
+footer p {
+  text-align:center;
+  font-weight:bolder;
+  font-size:18px;
+
+}
+
+header {
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  
+  background-color:#CE8D9B;
+   
+  font-family:Dancing Script, cursive;
+  font-size:16px;
+
+}
+
+footer {
+  background-color:#CE8D9B;
+
+}
+
+ul {
+  list-style:none;
+}
+
+h3 {
+  text-align:center;
+}
+
+h2 {
+  text-align:center;
+}
+
+ol {
+  list-style:none;
+}
+
+ol li {
+margin-left:125px;
+}
+
+.top-box {
+  display:flex;
+  
+
+  width:100%;
+  height:45%;
+
+  margin-bottom:2%;
+
+  background-color:#d0a5c0;
+
+  background-image:url("kids-at-board.jpg");
+
+
+  border-top-left-radius:15%;
+  border-top-right-radius: 15%;
+
+}
+
+.middle {
+
+  background-color: white;
+
+  text-align:center;
+
+  height:40%;
+  
+  margin-bottom:3%;
+
+  margin-left:33%;
+  margin-right:33%;
+
+}
+
+.home {
+  margin-top:auto;
+
+}
+
+
+hr {
+  border: solid green; 
+}
+
+.bottom-box { 
+  display:flex;
+  position:fixed;
+
+  width:100%;
+  height:50%;
+  
+}
+
+.quarter-box-left {
+
+  width: 32%;
+
+  margin-bottom:50px;
+  font-size:16px;
+
+  background-color:#a9747f;
+  color:black;
+  
+  
+overflow-y:scroll;
+  
+}
+
+.quarter-box-middle {
+
+  width:26%;
+  height:40%;
+
+  margin-top:65px;
+
+  text-align:center;
+  
+  
+   font-size: 20px;
+  background-color:#dbacb6;
+
+  background-image: url("top-photo.jpg");
+  background-position: center;
+  
+  
+
+}
+
+.quarter-box-middle a {
+  font-size: 26px;
+  color: black;
+  font-weight: bolder;
+}
+
+.quarter-box-middle li {
+   background-color: #f6c0d0;
+   width:30%;
+   margin: auto;
+}
+
+
+.quarter-box-right {
+
+  width:32%;
+
+
+  background-color:#a9747f;
+  color:black;
+
+  font-size: 14px;
+  text-align: justify;
+
+  margin-bottom:50px;
+  
+  overflow-y:scroll;
+  overflow-x:scroll;
+
+
+}
+
+.quarter-box-right li {
+  margin:auto;
+  
+}
+
+.instruction {
+
+  width: 46%;
+  height: 38%;
+
+ margin:auto;
+  
+  text-align: center;
+
+  border-radius:5px;
+
+  background-color: white;
+
+  overflow-y: scroll;
+}
+
+
+.prompt {
+
+  width: 46%;
+  height: 25%;
+
+ margin:auto;
+
+  background-color:white;
+  
+  overflow-y:scroll;
+
+  
+}
+
+.submit {
+
+  width: 46%;
+  height: 38%;
+
+  margin:auto;
+
+  background-color: white;
+  
+  overflow-y:scroll;
+  
+  
+
+}
+
+.about-site {
+
+  width: 46%;
+  height: 46%;
+
+  margin:auto;
+
+
+  text-align: center;
+
+  border-radius:5px;
+
+  background-color: white;
+  
+    overflow-y:scroll;
+  
+  
+}
+
+
+.permission-slip {
+
+  width: 46%;
+  height: 20%;
+
+  margin:auto;
+
+  background-color:white;
+  
+   overflow-y:scroll;
+
+  
+  
+}
+
+.location {
+  
+
+  width: 46%;
+  height: 30%;
+
+  margin:auto;
+
+  background-color: white;
+  
+   overflow-y:scroll;
+
+}
+
+
+
+
+
+
