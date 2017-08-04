@@ -35,7 +35,8 @@ body {
   padding: 10px; 
   margin:5px;
 
-
+  height:100%;
+  
   font-size:19px;
   font-weight:bolder;
 
@@ -146,12 +147,10 @@ margin-left:125px;
   text-align:center;
 
   height:40%;
+  width:21%;
+  margin:auto;
   
-  margin-bottom:3%;
-
-  margin-left:33%;
-  margin-right:33%;
-
+  overflow: hidden;
 }
 
 .home {
@@ -175,7 +174,7 @@ hr {
 
 .quarter-box-left {
 
-  width: 32%;
+  width: 30%;
 
   margin-bottom:50px;
   font-size:16px;
@@ -190,15 +189,19 @@ overflow-y:scroll;
 
 .quarter-box-middle {
 
-  width:26%;
-  height:40%;
+  width:21%;
+  height:50%;
 
-  margin-top:65px;
+  margin: auto;
 
   text-align:center;
   
+  overflow:hidden;
   
-   font-size: 20px;
+  border-radius:15px;
+  
+  
+  font-size: 20px;
   background-color:#dbacb6;
 
   background-image: url("top-photo.jpg");
@@ -212,19 +215,21 @@ overflow-y:scroll;
   font-size: 26px;
   color: black;
   font-weight: bolder;
+  
 }
 
 .quarter-box-middle li {
    background-color: #f6c0d0;
-   width:30%;
-   margin: auto;
+   width:40%;
+   margin-left:80px;
+   overflow:hidden;
+  
 }
 
 
 .quarter-box-right {
 
-  width:32%;
-
+  width:37%;
 
   background-color:#a9747f;
   color:black;
@@ -233,6 +238,7 @@ overflow-y:scroll;
   text-align: justify;
 
   margin-bottom:50px;
+  margin-right:130px;
   
   overflow-y:scroll;
   overflow-x:scroll;
